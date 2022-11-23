@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 6rem);
+  justify-content: center;
+}
+
+.qr__card {
+  align-items: center;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 1.6rem;
+  box-shadow: 0rem 0.2rem 1rem hsla(220deg, 15%, 55%, 0.3);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 32rem;
+  padding: 1.4rem;
+  width: 90%;
+}
+.qr__card .qr__image img {
+  border-radius: 1.6rem;
+  display: block;
+  width: 100%;
+}
+.qr__card .qr__body {
+  margin: 2rem 0;
+  text-align: center;
+  width: 95%;
+}
+.qr__card .qr__body .qr__title {
+  color: hsl(218deg, 44%, 22%);
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+.qr__card .qr__body .qr__content {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 1.5rem;
+}
+
+footer {
+  align-items: center;
+  color: hsl(220deg, 15%, 55%);
+  display: flex;
+  font-size: 1.2rem;
+  height: 6rem;
+  justify-content: center;
+  text-align: center;
+}
+footer a {
+  color: hsl(218deg, 44%, 22%);
+}
+
+/*# sourceMappingURL=styles.css.map */
