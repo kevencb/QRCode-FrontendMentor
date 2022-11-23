@@ -1,0 +1,65 @@
+@use 'reset';
+@use 'variables';
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: variables.$lightGray;
+    font-family: variables.$fontGeneral;
+    font-weight: variables.$weightContent;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 6rem);
+    justify-content: center;
+}
+
+.qr__card{
+    align-items: center;
+    background: variables.$white;
+    border-radius: variables.$borderRadiusOut;
+    box-shadow: 0rem .2rem 1rem variables.$boxShadow;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 32rem;
+    padding: 1.4rem;
+    width: 90%;;
+    .qr__image img{
+        border-radius: variables.$borderRadiusIn;
+        display: block; 
+        width: 100%;
+    }
+    .qr__body{
+        margin: 2rem 0;
+        text-align: center;
+        width: 95%;
+        .qr__title{
+            color: variables.$darkBlue;
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+        }
+        .qr__content{
+            color: variables.$grayishBlue;
+            font-size: 1.5rem
+        }
+    }
+}
+
+footer{
+    align-items: center;
+    color: variables.$grayishBlue;
+    display: flex;
+    font-size: 1.2rem;
+    height: 6rem;
+    justify-content: center;
+    text-align: center;
+    a {
+        color: variables.$darkBlue;
+    }
+}
